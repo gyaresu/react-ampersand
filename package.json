@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gyaresu/react-ampersand/issues"
   },
-  "homepage": "https://github.com/gyaresu/react-ampersand#readme"
+  "homepage": "https://github.com/gyaresu/react-ampersand#readme",
+  "dependencies": {
+    "surge": "^0.12.0"
+  }
 }
