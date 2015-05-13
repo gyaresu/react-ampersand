@@ -1,0 +1,25 @@
+{
+  "name": "react-ampersand",
+  "version": "1.0.0",
+  "description": "Human Javascript lessons from Henrik Joretag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyaresu/react-ampersand.git"
+  },
+  "keywords": [
+    "react",
+    "ampersandjs",
+    "humanjavascript",
+    "andyet"
+  ],
+  "author": "Gareth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyaresu/react-ampersand/issues"
+  },
+  "homepage": "https://github.com/gyaresu/react-ampersand#readme"
+}
