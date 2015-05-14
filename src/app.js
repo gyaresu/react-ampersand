@@ -1,11 +1,11 @@
-var React = require('react');
-var style = require('./styles/main.styl');
+import './styles/main.styl';
+import Router from './router';
 
-var Hello = React.createClass({
-    displayName: 'Hello',
-    render: function () {
-        return <div>Hello, {this.props.name}</div>;
+window.app = {
+    init () {
+        this.router = new Router();
+        this.router.history.start();
     }
-});
+};
 
-React.render(<Hello name='World!'/>, document.body);
+window.app.init();

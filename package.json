@@ -4,6 +4,7 @@
   "description": "Human Javascript lessons from Henrik Joretag",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src",
     "start": "webpack-dev-server",
     "prebuild": "rm -rf public && mkdir public",
     "build": "NODE_ENV=production webpack",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/gyaresu/react-ampersand#readme",
   "dependencies": {
+    "ampersand-router": "^3.0.2",
     "autoprefixer-core": "^5.1.11",
     "babel": "^5.3.2",
     "babel-core": "^5.3.2",
@@ -46,5 +48,10 @@
     "webpack": "^1.9.5",
     "webpack-dev-server": "^1.8.2",
     "yeticss": "^6.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.1",
+    "eslint": "^0.21.0",
+    "eslint-plugin-react": "^2.2.0"
   }
 }
